@@ -1,6 +1,6 @@
 const app = require("./src/app");  
 
-const PORT = process.env.PORT || 3055
+const PORT = process.env.DEV_APP_PORT || 3055
 
 const server = app.listen( PORT, () => {
     
